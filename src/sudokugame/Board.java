@@ -54,6 +54,10 @@ public class Board {
 		gameBoard[xIndex][yIndex] = value;
 	}
 	
+	public int getValAtXY(int x, int y) {
+		return gameBoard[x][y];
+	}
+	
 	public String toString() {
 		String output = "";
 		
