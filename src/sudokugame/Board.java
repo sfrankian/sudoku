@@ -70,8 +70,4 @@ public class Board {
 		return output;
 	}
 	
-	public static void main(String[] args) {
-		Board b = new Board("assets/sudokugrid.txt");
-		b.toString();
-	}
 }
